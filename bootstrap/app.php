@@ -20,6 +20,7 @@ return Application::configure(basePath: dirname(__DIR__))
         'http://localhost:8000/v1/usuarios/*',
         'http://localhost:8000/register',
         'http://localhost:8000/login',
+        'http://localhost:8000/logout',
         'http://localhost:8080/*',
         'http://localhost:8080',
         'http://localhost:8080/register',
