@@ -21,7 +21,10 @@ return Application::configure(basePath: dirname(__DIR__))
         'http://localhost:8000/register',
         'http://localhost:8000/login',
         'http://localhost:8080/*',
-        'http://localhost:8080'
+        'http://localhost:8080',
+        'http://localhost:8080/register',
+        'http://localhost:8080/login',
+        'http://localhost:8080/logout'
     ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
